@@ -1,0 +1,26 @@
+{
+    "html_css": {
+        "string": "HTML/CSS",
+        "script": "<script type=\"text/javascript\" src=\"https://api.hypertarget.ai/\"></script>\n<script type=\"text/javascript\">\nfunction onloadFunction(){\n    HYPERSNIPPET.initURL([\"CODETOSITE\",\"USERID\"]);\n}\nwindow.onload = onloadFunction();\ndocument.onclick = function (event) {\n    HYPERSNIPPET.analyzer(event,sessionStorage.getItem(\"key\"),isLoadedForClick);\n}\nwindow.addEventListener(\"beforeunload\", function (e) {\n    e.preventDefault();\n})\n</script>"
+    },
+    "wordpress": {
+        "string": "Wordpress",
+        "script": "<script type=\"text/javascript\">Wordpress</script>\n"
+    },
+    "single_page": {
+        "string": "Single Page Application",
+        "script": "<script type=\"text/javascript\">Single Page Application</script>\n"
+    },
+    "shopify": {
+        "string": "Shopify",
+        "script": "<script type=\"text/javascript\">Shopify</script>\n"
+    },
+    "lead_pages": {
+        "string": "LEAD PAGES",
+        "script": "<script type=\"text/javascript\">LEAD PAGES</script>\n"
+    },
+    "unbounce": {
+        "string": "UNBOUNCE",
+        "script": "<script type=\"text/javascript\">UNBOUNCE</script>\n"
+    }
+}

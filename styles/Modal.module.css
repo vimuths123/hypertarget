@@ -1,0 +1,43 @@
+.modalHeader {
+    text-align: left;
+    justify-content: flex-start !important;
+}
+
+.bodyContent {
+    margin-top: -20px !important;
+    /* Adjust the margin value as needed */
+}
+
+.optionLabel {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.radioGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio {
+    margin-bottom: 0px;
+}
+
+.label {
+    font-size: 14px;
+    /* Adjust the font size as desired */
+}
+
+.footer {
+    justify-content: flex-start !important;
+}
